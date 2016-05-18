@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticketResponse xmlns="http://www.xpadro.spring.samples.com/tickets" 
+	confirmationId="7890B"
+	filmId="A-123"
+	sessionDate="2013-09-22"
+	quantity="5"
+	amount="15.50" />
