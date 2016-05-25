@@ -1,0 +1,9 @@
+INSERT INTO Greeting (text) VALUES ('Hello World1!');
+INSERT INTO Greeting (text) VALUES ('Hola Mundo2!');
+INSERT INTO Greeting (text) VALUES ('Hola Mundo3!');
+INSERT INTO Greeting (text) VALUES ('Hola Mundo4!');
+INSERT INTO Greeting (text) VALUES ('Hola Mundo5!');
+INSERT INTO Greeting (text) VALUES ('Hola Mundo6!');
+INSERT INTO Greeting (text) VALUES ('Hola Mundo7!');
+INSERT INTO Greeting (text) VALUES ('Hola Mundo8!');
+INSERT INTO Greeting (text) VALUES ('Hola Mundo9!');
