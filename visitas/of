@@ -1,0 +1,57 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Visitas 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ visitas ---
+[INFO] Deleting C:\St3x\EclipMars\WrkSpringRestAngular\spring-boot-samples-master\visitas\target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ visitas ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ visitas ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 7 source files to C:\St3x\EclipMars\WrkSpringRestAngular\spring-boot-samples-master\visitas\target\classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ visitas ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\St3x\EclipMars\WrkSpringRestAngular\spring-boot-samples-master\visitas\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ visitas ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to C:\St3x\EclipMars\WrkSpringRestAngular\spring-boot-samples-master\visitas\target\test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.17:test (default-test) @ visitas ---
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.459 s
+[INFO] Finished at: 2016-05-09T04:03:57-05:00
+[INFO] Final Memory: 26M/212M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.17:test (default-test) on project visitas: Execution default-test of goal org.apache.maven.plugins:maven-surefire-plugin:2.17:test failed: A required class was missing while executing org.apache.maven.plugins:maven-surefire-plugin:2.17:test: org/apache/commons/lang3/StringUtils
+[ERROR] -----------------------------------------------------
+[ERROR] realm =    plugin>org.apache.maven.plugins:maven-surefire-plugin:2.17
+[ERROR] strategy = org.codehaus.plexus.classworlds.strategy.SelfFirstStrategy
+[ERROR] urls[0] = file:/C:/Users/jcuicapuza/.m2/repository/org/apache/maven/plugins/maven-surefire-plugin/2.17/maven-surefire-plugin-2.17.jar
+[ERROR] urls[1] = file:/C:/Users/jcuicapuza/.m2/repository/org/apache/maven/surefire/maven-surefire-common/2.17/maven-surefire-common-2.17.jar
+[ERROR] urls[2] = file:/C:/Users/jcuicapuza/.m2/repository/org/apache/maven/surefire/surefire-booter/2.17/surefire-booter-2.17.jar
+[ERROR] urls[3] = file:/C:/Users/jcuicapuza/.m2/repository/org/codehaus/plexus/plexus-utils/1.5.1/plexus-utils-1.5.1.jar
+[ERROR] urls[4] = file:/C:/Users/jcuicapuza/.m2/repository/org/apache/maven/reporting/maven-reporting-api/2.0.9/maven-reporting-api-2.0.9.jar
+[ERROR] urls[5] = file:/C:/Users/jcuicapuza/.m2/repository/org/apache/commons/commons-lang3/3.1/commons-lang3-3.1.jar
+[ERROR] urls[6] = file:/C:/Users/jcuicapuza/.m2/repository/org/apache/maven/surefire/surefire-api/2.17/surefire-api-2.17.jar
+[ERROR] urls[7] = file:/C:/Users/jcuicapuza/.m2/repository/org/apache/maven/plugin-tools/maven-plugin-annotations/3.2/maven-plugin-annotations-3.2.jar
+[ERROR] Number of foreign imports: 1
+[ERROR] import: Entry[import  from realm ClassRealm[maven.api, parent: null]]
+[ERROR] 
+[ERROR] -----------------------------------------------------: org.apache.commons.lang3.StringUtils
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/PluginContainerException
