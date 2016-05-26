@@ -42,7 +42,7 @@ public class App
     			if (nNode.getNodeType() == Node.ELEMENT_NODE) {
 
     				Element eElement = (Element) nNode;
-    				System.out.print("" + eElement.getElementsByTagName("LOAN_CODE").item(0).getTextContent() + ",");
+    				System.out.print("UPDATE ST_LO_MASTER SET SENT_TO_LATITUDE = 'Y', LATITUDE_DATE_UPLOADED = SYSDATE WHERE loan_code in (" + eElement.getElementsByTagName("LOAN_CODE").item(0).getTextContent() + ",");
     				if(temp % 75 == 0){
     					System.out.print("\n");
     				}
