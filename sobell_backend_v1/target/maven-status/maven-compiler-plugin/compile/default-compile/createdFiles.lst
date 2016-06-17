@@ -1,0 +1,12 @@
+rest\backend\enums\RoleEnum.class
+rest\backend\repository\jdbc\UserJdbcRepository.class
+rest\backend\rest\UserController.class
+rest\backend\support\WhereParams.class
+rest\backend\constants\RestConstants.class
+rest\backend\dto\UserDto.class
+rest\backend\support\WhereParams$ParamNameNotFound.class
+rest\backend\repository\jdbc\UserRepository.class
+rest\backend\dto\UserFilterDto.class
+rest\backend\Application.class
+rest\backend\model\User.class
+rest\backend\util\StringUtility.class

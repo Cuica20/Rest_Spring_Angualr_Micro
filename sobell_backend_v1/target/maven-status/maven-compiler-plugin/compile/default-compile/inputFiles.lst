@@ -1,0 +1,11 @@
+C:\St3x\EclipMarsExe\Spring_Git\sobell_backend_v1\src\main\java\rest\backend\Application.java
+C:\St3x\EclipMarsExe\Spring_Git\sobell_backend_v1\src\main\java\rest\backend\support\WhereParams.java
+C:\St3x\EclipMarsExe\Spring_Git\sobell_backend_v1\src\main\java\rest\backend\dto\UserFilterDto.java
+C:\St3x\EclipMarsExe\Spring_Git\sobell_backend_v1\src\main\java\rest\backend\repository\jdbc\UserJdbcRepository.java
+C:\St3x\EclipMarsExe\Spring_Git\sobell_backend_v1\src\main\java\rest\backend\constants\RestConstants.java
+C:\St3x\EclipMarsExe\Spring_Git\sobell_backend_v1\src\main\java\rest\backend\enums\RoleEnum.java
+C:\St3x\EclipMarsExe\Spring_Git\sobell_backend_v1\src\main\java\rest\backend\dto\UserDto.java
+C:\St3x\EclipMarsExe\Spring_Git\sobell_backend_v1\src\main\java\rest\backend\repository\jdbc\UserRepository.java
+C:\St3x\EclipMarsExe\Spring_Git\sobell_backend_v1\src\main\java\rest\backend\rest\UserController.java
+C:\St3x\EclipMarsExe\Spring_Git\sobell_backend_v1\src\main\java\rest\backend\util\StringUtility.java
+C:\St3x\EclipMarsExe\Spring_Git\sobell_backend_v1\src\main\java\rest\backend\model\User.java
